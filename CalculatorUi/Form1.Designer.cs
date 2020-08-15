@@ -298,6 +298,7 @@
             this.button24.TabIndex = 2;
             this.button24.Text = "=";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
