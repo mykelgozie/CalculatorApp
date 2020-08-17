@@ -333,6 +333,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(567, 98);
             this.textBox1.TabIndex = 5;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -344,9 +345,9 @@
             this.label3.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(21, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 15);
+            this.label3.Size = new System.Drawing.Size(13, 15);
             this.label3.TabIndex = 6;
-            this.label3.Text = "label3";
+            this.label3.Text = "0";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
